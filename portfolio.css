@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    float: left;
+    display: inline;
+}
+.below_btn{
+    display: inline;
+    width: 500px;
+
+}
+.logo{
+    position:absolute;
+}
+.nav_list{
+    flex: 1;
+    text-align: right;
+}
+.nav_list ul li {
+    list-style: none ;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav_list ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+   width: 30px;
+}
+#footer_nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 45px;
+    width: 100%;
+    background: #33323D;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+#about_me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.about_text{
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+    width: 60%;
+    height: 640px;
+    padding-right:150px ;
+    border-top: 1px solid silver ;
+    border-bottom: 1px solid silver ;
+    margin-left:10% ;
+    
+}
+.about_pic{
+    width: 99%;
+    /* padding-left: 60px; */
+    float: inline-start;
+}
+
+.about_pic img {
+    display: block;
+}
+
+#about_me2 img {
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 10px;
+}
+
+#about_me2  {
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+    display: inline;
+    background-color: rgb(2, 2, 27);
+    color: white;
+}
+
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+    background-color: none;
+    box-shadow: none;
+}
+#below{
+    width: 300px;
+    padding-left: 0; 
+    margin-top: 100px;
+}
+
+/* .contact_btn  button{
+    width: 100%;
+    border: 0;
+} */
+.contact_me{
+    display: flex;
+}
